@@ -7,6 +7,14 @@ from tensor2tensor.utils import registry
 from tensor2tensor.models.transformer import transformer_base_v1
 
 
+FIRST_exHANGUL_UNICODE = ord('')
+LAST_exHANGUL_UNICODE = ord('')
+
+
+def  is_hangul_ex(char):
+
+
+
 def sep_to_pho(line):
     result = []
     for char in line:
